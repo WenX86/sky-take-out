@@ -54,6 +54,7 @@ public interface SetmealMapper {
      * 更新套餐
      * @param setmeal
      */
+    @AutoFill(OperationType.UPDATE)
     void update(Setmeal setmeal);
     /**
      * 动态条件查询套餐
